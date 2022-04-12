@@ -1,0 +1,362 @@
+.everything {
+  width: 100%;
+  margin-left: 200px;
+  margin-top: 10px;
+  position: absolute;
+}
+h1 {
+  text-align: center;
+  position: relative;
+  bottom: 10%;
+}
+  .WPF {
+      height: 800px;
+      width: 800px;
+      border: 5px solid black;
+      position: relative;
+      margin-top: 10%;
+  }
+  .WPF .one {
+      background-color: blue;
+      opacity: .7;
+      font-size: xx-large;
+  }
+  .WPF .two {
+      background-color: green;
+      opacity: .7;
+      font-size: xx-large;
+  }
+  .WPF .three {
+      background-color: pink;
+      opacity: .7;
+      font-size: xx-large;
+  }
+  .WPF .four {
+      background-color: red;
+      opacity: .7;
+      font-size: xx-large;
+  }
+  .WPF .five {
+      background-color: yellow;
+      opacity: .7;
+      font-size: xx-large;
+  }
+/* zindex */
+  .ZI {
+      height: 800px;
+      width: 800px;
+      border: 5px solid black;
+      position: relative;
+      margin-top: 200px;
+  }
+  .ZI .one {
+      height: 300px;
+      width: 300px;
+      border: solid black;
+      background-color: blue;
+      opacity: 1;
+      font-size: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      z-index: 1;
+  }
+  .ZI .two {
+      height: 300px;
+      width: 300px;
+      border: solid black;
+      background-color: green;
+      opacity: .9;
+      font-size: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 43%;
+      right: 43%;
+      z-index: 2;
+  }
+  .ZI .three {
+      height: 300px;
+      width: 300px;
+      border: solid black;
+      background-color: pink;
+      opacity: .8;
+      font-size: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      bottom: 40%;
+      left: 40%;
+      z-index: 3;
+  }
+  .ZI .four {
+      height: 300px;
+      width: 300px;
+      border: solid black;
+      background-color: red;
+      opacity: .8;
+      font-size: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 40%;
+      right: 40%;
+      z-index: 0;
+  }
+  .ZI .five {
+      height: 300px;
+      width: 300px;
+      border: solid black;
+      background-color: yellow;
+      opacity: .8;
+      font-size: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 0;
+  }
+  .ZI .zutton {
+      width: 100%;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      top: 8px;
+  }
+  .ZI a {
+      width: 80px;
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      border: solid;
+  }
+/* FOR THIS ONE ONLY CHANGE THE Z-INDEX IN .zitbox */
+.ZIT {
+  height: 800px;
+  width: 800px;
+  border: 5px solid black;
+  position: relative;
+  margin-top: 10%;
+  z-index: 3;
+}
+.ZIT .one {
+  height: 250px;
+  width: 250px;
+  border: solid black;
+  background-color: blue;
+  opacity: 1;
+  font-size: 25px;
+  padding: 6px;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  z-index: 1;
+}
+.ZIT .two {
+  height: 250px;
+  width: 250px;
+  border: solid black;
+  background-color: green;
+  opacity: .9;
+  font-size: 25px;
+  padding: 6px;
+  position: relative;
+  top: -10%;
+  left: 20%;
+  z-index: 2;
+}
+.ZIT .three {
+  height: 250px;
+  width: 250px;
+  border: solid black;
+  background-color: pink;
+  opacity: .8;
+  font-size: 25px;
+  padding: 6px;
+  position: relative;
+  top: -30%;
+  left: 30%;
+  z-index: 3;
+}
+.ZIT .four {
+  height: 250px;
+  width: 250px;
+  border: solid black;
+  background-color: red;
+  opacity: .8;
+  font-size: 25px;
+  padding: 6px;
+  position: relative;
+  top: -50%;
+  left: 40%;
+  z-index: 4;
+}
+.ZIT .five {
+  height: 250px;
+  width: 250px;
+  border: solid black;
+  background-color: yellow;
+  opacity: .8;
+  font-size: 25px;
+  padding: 6px;
+  position: relative;
+  top: -70%;
+  left: 50%;
+  z-index: 5;
+}
+/* MOVE THIS Z-INDEX */
+.zitbox {
+  height: 550px;
+  width: 400px;
+  border: solid black;
+  background-color: rgb(255, 0, 200);
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  z-index: 1;
+}
+.ZIT .zuttonT {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 8px;
+}
+.ZIT a {
+  width: 80px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border: solid;
+}
+.FO {
+  height: 800px;
+  width: 800px;
+  border: 5px solid black;
+  position: relative;
+  margin-top: 20%;
+}
+.FO-container {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(./img/numberline.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -247px 80px;
+  margin-bottom: 0;
+  position: relative;
+}
+.FO-container .one {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+.FO-container .two {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+.FO-container .three {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+.FO-container .four {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+.FO-container .five {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 0;
+}
+.container-true {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container-true .one {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-true .two {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-true .three {
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-true .four {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-true .five {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  font-size: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
